@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main() {
+   int x = 3; //Happines tester 1 - not happy, 5 - Super happy 
+    int m = 2; //Today's mark 1 - 5
+    int b = 2; //Bad things that happend 1 - yes, 2 - nope
+    int l = 1; //Have you learned something new today? 1 - yes, 2 - nope
+    int p = 2; //Have you programmed something new? 1 - yes, 2 - It's work in progress, 3 - nope
+
+    printf("How are you today?");
+    if(x < 3){ //How happy are you 1 - 5?
+        printf("\n Aww I'm sorry to hear that");
+    }else
+    {
+        printf("\n Ok that's good to hear");
+    }
+    printf("\n What's the worst mark you got today?");
+    if(m > 3){ //What mark did you get today? (The worst one please)
+        printf("\n Are you dumb?, Did you study?");
+    }else
+    {
+        printf("\n Good job, keep it up");
+    }
+    printf("\n Did anything bad happend?");
+    if(b = 1){ //Any bad things happend today :( ?
+        printf("\n I'm sorry to hear that, next time make things better :)");
+    }else
+    {
+        printf("\n Ahh great news");
+    }
+    printf("\n Learned anything new?");
+    if(l = 1){ //Don't worry if it's mad during the weekends, it'll get over it
+        printf("\n Nice, that's great");
+    }else
+    {
+        printf("\n Then you better study, or I'll get MAD!");
+    }
+    printf("\n Programmed anything new?");
+    if(p <= 2){
+        printf("\n Great. Will I have a brother? :)) Anyways, see you tomorrow");
+    }else
+    {
+        printf("\n Not good, but we will work on it :) See you tomorrow");
+    }
+    return 0;
+}
